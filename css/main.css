@@ -1,0 +1,929 @@
+
+/*slider*/
+#slider {
+    width: 100%;
+    position: relative;
+}
+
+#slider img {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+#slider .content {
+    width: 1225px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#slider h1 {
+    width: 510px;
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-90deg) translate(175px, -186px);
+    /* opacity: 0.8; */
+    font-family: 'Do Hyeon', sans-serif;
+    letter-spacing: 20px;
+    background: linear-gradient(to left, white 85.5%, #666, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+#slider p {
+    color: white;
+    font-size: 115px;
+    width: 650px;
+    height: 230px;
+    float: right;
+    text-align: right;
+
+    position: relative;
+    font-family: 'Song Myung', serif;
+}
+
+#slider .content .box {
+    width: 160px;
+    height: 45px;
+    border: 2px solid white;
+    position: relative;
+    top: 320px;
+    left: 950px;
+    z-index: 5;
+}
+
+#slider .content .box button {
+    display: block;
+    width: 170px;
+    height: 50px;
+    position: relative;
+    float: right;
+    font-size: 13px;
+    top: -10px;
+    right: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+#slider .content .box button:hover {
+    cursor: pointer;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+#slider .icon {
+    position: absolute;
+    top: -100px;
+    transform: translateX(-50%);
+    right: 290px;
+    opacity: 0.3;
+
+
+}
+
+#slider .button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-40%);
+    bottom: 40px;
+
+}
+
+/*section*/
+#ing {
+    width: 100%;
+    height: 895px;
+    overflow: hidden;
+}
+
+#ing img {
+    display: inline;
+}
+
+#ing h2 {
+    color: white;
+    background: rgb(38, 38, 38);
+    width: 100%;
+    height: 95px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+    
+
+}
+
+#ing .content2 div {
+    width: 155px;
+    height: 6px;
+    border-radius: 20px;
+    background: rgb(72, 72, 72);
+    position: absolute;
+    bottom: 105px;
+    left: 110px;
+}
+
+#ing .content2 div span {
+    width: 52px;
+    height: 6px;
+    border-radius: 20px;
+    left: 50px;
+    bottom: 0 auto;
+    background: white;
+    position: absolute;
+    cursor: pointer;
+}
+
+#ing .content2 {
+    width: 1225px;
+    height: 820px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#ing .content2>img:nth-of-type(1) {
+    position: absolute;
+    left: -90%;
+    top: 110px;
+}
+
+
+#ing .content2 .imgbox {
+    width: 1005px;
+    height: 589px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    background: aliceblue;
+}
+
+#ing .content2 .imgbox p {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: -170px;
+    left: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+    font-weight: bold;
+    
+
+}
+
+#ing .content2>img:nth-of-type(2) {
+    position: absolute;
+    right: -90%;
+    top: 110px;
+    
+}
+
+#ing .content2 img:nth-of-type(3) {
+    position: absolute;
+    bottom: 90px;
+    right: 120px;
+    cursor: pointer;
+}
+
+#end {
+    width: 1225px;
+    height: 894px;
+    margin: 0 auto;
+}
+
+
+#end .content3 h2 {
+    text-align: center;
+    color: white;
+    font-size: 43px;
+    padding: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+}
+
+
+#end .content3 {
+    width: 1225px;
+    height: 894px;
+    position: relative;
+}
+
+#end .content3 .font {
+    color: white;
+    float: right;
+    margin: 45px 5px -5px 0;
+    cursor: pointer;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 17px;
+    transform: skew(-0.1deg);
+}
+
+#end .content3>div {
+    float: left;
+}
+
+#end .content3>div:nth-of-type(1) {
+    width: 479px;
+    height: 635px;
+    border: 2.5px solid white;
+    margin-top: 70px;
+}
+
+#end .content3 div:nth-of-type(1) img {
+    margin: -10px;
+}
+
+#end .content3 .text {
+    position: absolute;
+    top: 30px;
+}
+
+#end .content3 .text h3 {
+    font-size: 22px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+#end .content3 .text p {
+    font-size: 15px;
+}
+
+
+#end .content3 .Maurizio img {
+    position: absolute;
+    top: 190px;
+    left: 20px;
+}
+
+#end .content3 .stoke {
+    width: 696px;
+    height: 157px;
+    float: right;
+    margin-top: 10px;
+    border-top: 2px solid white;
+    
+    color: white;
+    position: relative;
+
+}
+
+#end .content3 .stoke:nth-of-type(6) {border-bottom: 2px solid white;}
+
+
+#end .content3 .stoke:hover .sub {
+    opacity: 1;
+}
+
+#end .content3 .sub {
+    position: absolute;
+    width: 197px;
+    height: 256px;
+    top: 50%;
+    right: 115px;
+    transform: translateY(-50%);
+    opacity: 0;
+    /* transition: 0.2s ease-in-out; */
+    z-index: 5;
+}
+
+#end .content3 .imge2 {
+    position: absolute;
+    right: 0;
+    top: 180px;
+    cursor: pointer;
+}
+
+#end .content3 .imge3 {
+    position: absolute;
+    right: 0;
+    top: 350px;
+    cursor: pointer;
+}
+
+#end .content3 .imge4 {
+    position: absolute;
+    right: 0;
+    bottom: 360px;
+    cursor: pointer;
+}
+
+#end .content3 .imge5 {
+    position: absolute;
+    right: 0;
+    bottom: 200px;
+    cursor: pointer;
+}
+
+
+
+#collection {
+    width: 100%;
+    height: 755px;
+    background: rgb(89, 89, 89);
+    border-bottom: 2px solid white;
+    overflow: hidden;
+}
+
+#collection>h2 {
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 30px 0 20px 0;
+    border-bottom: 2px solid white;
+    font-size: 43px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+}
+
+
+
+#collection .content4 {
+    width: 1225px;
+    height: 650px;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+
+}
+
+#collection .content4 .bar {
+    position: absolute;
+    width: 160px;
+    height: 6px;
+    border-radius: 20px;
+    background: rgb(48, 48, 48);
+    bottom: 60px;
+}
+
+#collection .content4 .bar span {
+    position: absolute;
+    width: 35px;
+    height: 6px;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+}
+
+#collection .content4>div {
+    float: left;
+}
+
+
+#collection .content4 div:nth-of-type(1) {
+    width: 375px;
+    height: 530px;
+    border: 2.5px solid white;
+    margin-left: 18px;
+    position: relative;
+}
+
+#collection .content4 div:nth-of-type(1) img:nth-of-type(1) {
+    margin: -15px 0 0 -20px;
+    box-shadow: 5px 5px 5px;
+}
+
+#collection .content4 div:nth-of-type(1) img:nth-of-type(2) {
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#collection .content4 div:nth-of-type(1) b {
+    color: white;
+    float: right;
+    margin-top: 30px;
+    margin-right: -80px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    transform: skew(-0.1deg);
+    font-weight: lighter;
+
+
+}
+
+#collection .button img {
+    position: absolute;
+}
+
+#collection .content4 div:nth-of-type(2) {
+    margin-top: 50px;
+    width: 373px;
+    height: 239px;
+    border: 2.5px solid white;
+    margin-left: 50px;
+    position: relative;
+}
+
+#collection .content4 div:nth-of-type(2) img:nth-of-type(2) {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#collection .content4 div:nth-of-type(2) b {
+    color: white;
+    float: left;
+    margin-top: 16px;
+    margin-left: -20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    transform: skew(-0.1deg);
+    font-weight: lighter;
+}
+
+#collection .content4 div:nth-of-type(2) img:nth-of-type(1) {
+    margin: -40px 0 0 -20px;
+    box-shadow: 5px 5px 5px;
+
+}
+
+#collection .content4 div:nth-of-type(3) {
+    margin-top: 110px;
+    margin-left: 10px;
+    width: 335px;
+    height: 400px;
+    border: 2.5px solid white;
+    position: relative;
+}
+
+#collection .content4 div:nth-of-type(3) img:nth-of-type(2) {
+    position: absolute;
+    right: -40px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+#collection .content4 div:nth-of-type(3) b {
+    color: white;
+    float: left;
+    margin-top: 15px;
+    margin-right: -15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    transform: skew(-0.1deg);
+    font-weight: lighter;
+    
+}
+
+#collection .content4 div:nth-of-type(3) img:nth-of-type(1) {
+    margin: -60px 0 0 20px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px;
+    
+}
+
+#collection .content4 div:nth-of-type(4) {
+    width: 450px;
+    height: 450px;
+    left: 900px;
+    bottom: 420px;
+    border: 2.5px solid white;
+    position: relative;
+}
+
+#collection .content4 div:nth-of-type(4) img {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    box-shadow: 5px 5px 5px;
+}
+
+#collection .content4 div:nth-of-type(5) {
+    width: 400px;
+    height: 560px;
+    border: 2.5px solid white;
+    position: relative;
+    right: 500px;
+    bottom: 930px;
+}
+
+#collection .content4 div:nth-of-type(5) img:nth-of-type(1) {
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+    box-shadow: 5px 5px 5px;
+    
+}
+
+#collection .content4 div:nth-of-type(5) img:nth-of-type(2) {
+    position: absolute;
+    left: 380px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+
+
+
+#media {
+    width: 1225px;
+    height: 845px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#media>h2 {
+    color: white;
+    text-align: center;
+    padding: 90px 20px 10px 20px;
+    background: black;
+    border-bottom: 3px solid white;
+    font-size: 49px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+}
+
+#media .content5 {
+    width: 1225px;
+    height: 700px;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+}
+
+#media .content5 .imgbox {
+    width: 698px;
+    height: 527px;
+    position: absolute;
+
+}
+
+#media .content5 .imgbox2 {
+    width: 414px;
+    height: 527px;
+    border-bottom: 6px solid white;
+    position: absolute;
+    top: -182px;
+    right: 42px;
+}
+
+#media .content5 .imgbox2 p {
+    color: white;
+    position: relative;
+    top: 189px;
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+#media .content5 .imgbox3 p {
+    color: white;
+    position: relative;
+    font-size: 24px;
+    float: right;
+    right: 225px;
+    font-weight: lighter;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+
+#media .content5 .imgbox p {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 475px;
+    left: 10px;
+    font-weight: lighter;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+#media .content5 div:nth-of-type(1) img {
+    width: 698px;
+    height: 527px;
+    margin-left: 10px;
+    margin-top: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+#media .content5 div:nth-of-type(1) img:nth-of-type(2) {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: -50px;
+    right: 20px;
+}
+
+#media .content5 div:nth-of-type(2) iframe {
+    width: 420px;
+    height: 233px;
+    top: 189px;
+    position: relative;
+}
+
+
+#media .content5 div:nth-of-type(3) iframe {
+    width: 412px;
+    height: 233px;
+    margin-left: 770px;
+    margin-top: 380px;
+}
+
+
+
+
+
+#membership {
+    width: 1225px;
+    height: 970px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: black;
+}
+
+#membership .time {
+    background: white;
+    width: 406px;
+    height: 310px;
+    float: left;
+    position: relative;
+
+}
+
+
+
+#membership .time>img {
+    width: 40px;
+    height: 40px;
+    margin: 45px 50px;
+    position: absolute;
+}
+
+#membership .time .text {
+    margin: 50px 100px;
+    font-weight: lighter;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 17px;
+    transform: skew(-0.1deg);
+}
+
+#membership .time>.text2 img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: -8px -48px;
+}
+
+#membership .time .text2 {
+    margin: -25px 100px;
+    font-weight: lighter;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 17px;
+    transform: skew(-0.1deg);
+}
+
+#membership>h2 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+}
+
+#membership .member {
+    float: right;
+    width: 819px;
+    height: 434px;
+    position: relative;
+
+}
+
+
+#membership .member::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+}
+
+#membership .member img:nth-of-type(1) {
+    width: 100%;
+    position: relative;
+}
+
+#membership .member img:nth-of-type(2) {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    z-index: 3;
+}
+
+#membership .member img:nth-of-type(3) {
+    position: absolute;
+    top: 170px;
+    left: 150px;
+    z-index: 3;
+}
+
+#membership .member img:nth-of-type(4) {
+    position: absolute;
+    top: 20px;
+    right: 230px;
+    z-index: 3;
+}
+
+#membership .member img:nth-of-type(5) {
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+    z-index: 3;
+}
+
+#membership .member img:nth-of-type(6) {
+    width: 49px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    z-index: 3;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+
+#membership .ticket {
+    float: left;
+    width: 405px;
+    height: 191px;
+    position: relative;
+    overflow: hidden;
+}
+
+#membership .ticket::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.3;
+}
+
+#membership .ticket h2 {
+    color: white;
+    position: absolute;
+    top: 10px;
+    z-index: 3;
+    font-size: 35px;
+    left: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+}
+
+#membership .ticket button {
+    width: 380px;
+    height: 43px;
+    z-index: 3;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    border: 3px solid white;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 20px;
+    display: block;
+    overflow: hidden;
+    background-color: black;
+    background-color: rgba(19, 19, 19, 0.5);
+    font-weight: lighter;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+#membership .ticket button:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+#membership .ticket button img {
+    position: absolute;
+    right: 10px;
+}
+
+
+#membership .map1 {
+    float: left;
+    width: 614px;
+    height: 328px;
+    margin-top: 1px;
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+}
+
+#membership .map1 img {
+    width: 597px;
+    height: 313px;
+    margin: 8px 15px 5px 10px;
+}
+
+#membership .map2 {
+    float: right;
+    width: 607px;
+    height: 338px;
+    position: relative;
+}
+
+#membership .map2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+}
+
+#membership .map2 h1 {
+    color: white;
+    z-index: 3;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 39px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+}
+
+#membership .map2 h5 {
+    color: white;
+    z-index: 3;
+    position: absolute;
+    top: 90px;
+    left: 25px;
+    font-size: 18px;
+    transform: skew(-0.1deg);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: lighter;
+}
+
+#membership .map2 h3 {
+    color: white;
+    z-index: 3;
+    position: absolute;
+    bottom: 130px;
+    font-size: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+    left: 25px;
+}
+
+#membership .map2 h4 {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 18px;
+    bottom: 90px;
+    left: 25px;  
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: lighter;
+    transform: skew(-0.1deg);
+}
+
+#membership .map2 img:nth-of-type(2) {
+    position: absolute;
+    z-index: 3;
+    bottom: 45px;
+    left: 20px;
+}
+
+#membership .map2 img:nth-of-type(3) {
+    position: absolute;
+    z-index: 3;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+article {
+    width: 340px;
+    height: 200px;
+}
+
