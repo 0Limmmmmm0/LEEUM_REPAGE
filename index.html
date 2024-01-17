@@ -16,12 +16,45 @@
 
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+            $("#button").click(function () {
+
+                $(".a").slideToggle();
+
+            });
+
+        });
+
+
+        $(window).resize(function () {
+
+
+            $('#button').show();
+
+
+        });
+
+    </script>
 </head>
 
 <body style="background-color: black;">
     <header>
         <div id="button">
             <img src="icon/button2.png" alt="button">
+            <nav class="a">
+                <ul>
+                    <li><a href="sub.html">미술관 소개<img src="icon/slider.png" alt=""></a></li>
+                    <li><a href="sub.html">전시<img src="icon/slider.png" alt=""></a></li>
+                    <li><a href="sub.html">멤버십<img src="icon/slider.png" alt=""></a></li>
+                    <li><a href="sub.html">방문 안내<img src="icon/slider.png" alt=""></a></li>
+                    <li><a href="sub.html">소장품<img src="icon/slider.png" alt=""></a></li>
+                    <li><a href="sub.html">배움/연구<img src="icon/slider.png" alt=""></a></li>
+                </ul>
+            </nav>
 
         </div>
         <p id="round">호암 미술관 바로가기</p>

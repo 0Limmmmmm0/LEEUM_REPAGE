@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="sub.css">
+    <link rel="stylesheet" href="css/common_sub.css">
+    <link rel="stylesheet" href="css/sub.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 </head>
 
 <body style="background-color: black;">
@@ -17,24 +19,32 @@
 
         </div>
         <nav>
-            <p>로그인 회원가입 마이페이지</p>
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li>|</li>
+                <li><a href="#">회원가입</a></li>
+                <li>|</li>
+                <li><a href="#">마이페이지</a></li>
+            </ul>
         </nav>
     </header>
 
 
     <div id="slider">
-        <nav>
-            <h1>미술관 소개<br>
-                전시<br>
-                멤버십</h1>
+        <nav style="text-align: right;">
+            <h1 class="a">미술관 소개</h1>
+            <h1>전시</h1>
+            <h1 class="b">멤버십</h1>
         </nav>
         <div class="mainlogo">
             <img src="icon/leeumlogo.png" alt="">
         </div>
         <nav>
-            <h1>방문 안내<br>
-                소장품<br>
-                배움/연구</h1>
+            <h1 class="c">방문 안내</h1>
+            <div class="box"><button>
+                    <h1>소장품</h1>
+                </button></div>
+            <h1 class="d">배움/연구</h1>
 
         </nav>
     </div>
@@ -44,12 +54,12 @@
     <section>
         <div class="sub">
             <div class="sub1">
-                <h2>도록</h2>
+                <h2 style="font-weight: bold;">도록</h2>
                 <div class="subbox">
                     <img src="img/book1.png" alt="">
                     <div class="text">
                         <h3>전소정 : 그린 스크린(GREEN SCREEN)</h3>
-                        <p>전시기간 : 2022.08.23 ~ 2023.01.29</p>
+                        <p style="font-size: 14px;">전시기간 : 2022.08.23 ~ 2023.01.29</p>
                     </div>
                     <div class="btton"><button>구매하기</button></div>
 
@@ -60,7 +70,7 @@
                     <img src="img/book3_1.jpg" alt="">
                     <div class="text">
                         <h3>아트스펙트럼2022(ART SPECTRUM 2022)</h3>
-                        <p>전시기간 : 2022.03.02 ~ 2023.01.29</p>
+                        <p style="font-size: 14px;">전시기간 : 2022.03.02 ~ 2023.01.29</p>
                     </div>
                     <div class="btton"><button>구매하기</button></div>
                 </div>
@@ -70,24 +80,26 @@
                     <img src="img/book3.JPG" alt="">
                     <div class="text">
                         <h3>피필로티 리스트 하늘로 <br> 오르다 (Pipilotti Rist <br>Spear to Heaven)</h3>
-                        <p>전시기간 : 2022.03.02 ~ 2023.01.29</p>
+                        <p style="font-size: 14px;">전시기간 : 2022.03.02 ~ 2023.01.29</p>
                     </div>
                 </div>
             </div>
 
         </div>
         <div class="page1">
-            <hr style="height: auto; border-bottom: 2px solid gray; width: 155px;">
-            <h1>고미술</h1>
+            <hr style="height: auto; border-bottom: 2px solid rgb(255, 255, 255); width: 155px;">
+            <h1 style="color: white; font-weight: bold;">고미술</h1>
             <div class="image">
                 <img src="img/page1image1.JPG" alt="">
                 <div class="imgbox1">
-                <img src="icon/arrow-up3.png" alt="">
-                <img src="icon/arrow-up4.png" alt=""></div>
+                    <img src="icon/arrow-up3.png" alt="">
+                    <img src="icon/arrow-up4.png" alt="">
+                </div>
                 <div class="text">
-                    <h2>군선도</h2>
-                    <h4>김홍도 조선,1776년</h4><br>
-                    <p>조선을 대표하는 화가인 단원 김홍도(1745-1806)의 대표작으로 현재 국보로 지정되어 있다. 그림에 등장하는 신선들은 <br>그들의 우두머리였던 서왕모의 행사에 초대를
+                    <h2 style="color: white;">군선도</h2>
+                    <h4 style="color: white;">김홍도 조선,1776년</h4><br>
+                    <p style="color: white;">조선을 대표하는 화가인 단원 김홍도(1745-1806)의 대표작으로 현재 국보로 지정되어 있다. 그림에 등장하는 신선들은 <br>그들의
+                        우두머리였던 서왕모의 행사에 초대를
                         받고 물 위를 건너가는 모습을 그린 것으로, 이러한 그림을 해상신선도라 부른다. <br>그러나 같은 주제를 그린 다른 작품들은 바다를 배경으로 그려 넣는 것과 달리 배경이
                         생략되어 있는 것이 독특하다.</p>
                 </div>
@@ -112,12 +124,12 @@
 
             </div>
             <div class="image2">
-                <hr style="height: auto; border-bottom: 2px solid gray; width: 150px;">
+                <hr style="height: auto; border-bottom: 2px solid rgb(255, 255, 255); width: 150px;">
                 <h1>현대미술</h1>
                 <img src="img/page2imge2.JPG" alt="">
                 <div class="textbox2">
                     <h2>크리매스터3</h2>
-                    <p>매튜 바니 <br> 2001
+                    <p style="font-size: 14.5px; line-height: 18px;">매튜 바니 <br> 2001
                         <br><br>매튜 바니는 미국의 설치, 영상 미술가로 연작 영화 ＜크리매스터＞의 작가이자 제작자다. 1994년부터 2002년까지 8년동안 제작한 다섯 편의 ＜크리매스터＞
                         사이클은 성적 열망과 집착, 기괴하고도 아름다운 상상의 세계를 영화, 조각, 드로잉, 사진 등을 복합적으로 사용하여 제작한 작품이다. 난해하고 충격적인 영상으로 전 세계에
                         열광적인 마니아를 형성하고 있다.
@@ -142,7 +154,7 @@
         </div>
         <div class="page3index">
             <div class="textbox">
-                <h2>보존</h2>
+                <h2 style="font-weight: bold;">보존</h2>
 
             </div>
         </div>
@@ -155,7 +167,9 @@
                 <img src="img/page3image2_2.jpg" alt="">
                 <p style="color: rgb(180, 180, 180);">노화와 벌레 피해 등으로 훼손된 상태의 ‘평안감사향연도’ 세부 모습.</p>
                 <h2 style="color: white; text-align: right;">손상된 우리 문화재 : <br> 다시 태어난다</h2><br>
-                <h5>리움미술관 보존연구실에서 국내,해외 문화유산 보존 및 복원 지원사업을 시작하였습니다. 해외의 한국문화유산은 모두 22만9600여점으로 27개국에 흩어져 있으며 이들 중에 훼손이 심해 공개가 어려운 작품이 상당수입니다. 리움미술관 보존연구실을 중심으로 국외소재문화재단과 협력해 우리문화유산을 보존작업을 통해 훼손된 작품을 본래의 모습으로 탄생시켜 새로운 모습을 보여줄 수 있습니다. 이 보존작업을 통해 우리문화유산의 소중함과 많은 사람들에게 알리는 계기가 될 것입니다.
+                <h5>리움미술관 보존연구실에서 국내,해외 문화유산 보존 및 복원 지원사업을 시작하였습니다. 해외의 한국문화유산은 모두 22만9600여점으로 27개국에 흩어져 있으며 이들 중에 훼손이
+                    심해 공개가 어려운 작품이 상당수입니다. 리움미술관 보존연구실을 중심으로 국외소재문화재단과 협력해 우리문화유산을 보존작업을 통해 훼손된 작품을 본래의 모습으로 탄생시켜 새로운
+                    모습을 보여줄 수 있습니다. 이 보존작업을 통해 우리문화유산의 소중함과 많은 사람들에게 알리는 계기가 될 것입니다.
                 </h5>
             </div>
         </div>
@@ -164,14 +178,15 @@
                 <안중근 가족 사진첩> 내지 분리작업을 하는 모습.
             </p>
             <h2 style="color: white;">110년만에 고국에 돌아오다 : <br>안중근의사 문화유산 복원</h2><br>
-            <h5 style="color: white; font-size: 14px;">안중근 의사 순국 112주기를 맞아 삼성문화재단은 ‘안중근의사숭모회’가 소장한 문화유산을 보존처리를 진행하였습니다. 사진 상태는 비교적 양호해
+            <h5 style="color: white; font-size: 14px;">안중근 의사 순국 112주기를 맞아 삼성문화재단은 ‘안중근의사숭모회’가 소장한 문화유산을 보존처리를 진행하였습니다.
+                사진 상태는 비교적 양호해
                 그대로 유지하고 사진이 고정된 첩의 보존 처리에 집중하였고 표지의 문양비단, 내지의
-                결손 부분을 메워 색맞춤한 후 다시 하나로 연결하였습니다. 특히 사진첩은 좌우가 경첩으로 연결된 형태라고 지금까지 알려져 왔으나 보존처리과정에서 위아래가 연결된 형태임을 찾아냈고
+                결손 부분을 메워 색맞춤한 후 하나로 연결하였습니다. 특히 사진첩은 좌우가 경첩으로 연결된 형태라고 지금까지 알려져 왔으나 보존처리과정에서 위아래가 연결된 형태임을 찾아냈고
                 원형으로 복원하였습니다.</h5>
         </div>
         <div class="page3bottom">
             <div class="textbox">
-                <h2>더 많은 자료 함께하기</h2>
+                <h2 style="font-weight: bold;">더 많은 자료 함께하기</h2>
             </div>
 
         </div>
@@ -180,7 +195,7 @@
         </div>
         </div>
         <div class="page5index">
-            <h2>리움스토어</h2>
+            <h2 style="font-weight: bold;">리움스토어</h2>
         </div>
         <div class="page5main">
             <div class="imagebox">
@@ -190,9 +205,11 @@
             </div>
         </div>
         <div class="page5sub1">
+            <div class="imgbox">
+                <img src="img/store3.jpg" alt="">
+            </div>
             <div class="textbox">
-                <div class="imgbox">
-                <img src="img/store3.jpg" alt=""></div>
+
                 <p style="font-size: 17px; color: white; font-weight: bold;">리움 손수건 부채 세트 <br>(연지 쌍압도)</p><br>
                 <p style="color: white; font-size: 17px;">28,000원</p>
                 <button>
@@ -201,23 +218,28 @@
             </div>
         </div>
         <div class="page5sub2">
+            <div class="imgbox"><img src="img/store2.png" alt=""></div>
             <div class="textbox">
-                <img src="img/store2.png" alt="">
+
                 <p style="font-size: 17px; color: white; font-weight: bold;">
 
 
                     김유정 Kim, Yoojung <br>
 
-                    라피스 라줄리 침수정 캡슐 브로치</p> <br><p style="color: white; font-size: 17px;">248,000원</p>
+                    라피스 라줄리 침수정 캡슐 브로치</p> <br>
+                <p style="color: white; font-size: 17px;">248,000원</p>
                 <button>
                     <h3>카트담기</h3>
                 </button>
             </div>
         </div>
         <div class="page5sub3">
+            <div class="imgbox"><img src="img/store1.png" alt=""></div>
+
             <div class="textbox">
-                <img src="img/store1.png" alt="">
-                <p style="font-size: 17px; color: white; font-weight: bold;">김승현 Kim, Sunghyon <br>버선 (레드)</p> <br><p style="color: white; font-size: 17px;">130,000원</p>
+
+                <p style="font-size: 17px; color: white; font-weight: bold;">김승현 Kim, Sunghyon <br>버선 (레드)</p> <br>
+                <p style="color: white; font-size: 17px;">130,000원</p>
                 <button>
                     <h3>카트담기</h3>
                 </button>
@@ -230,10 +252,9 @@
     <aside>
         <div class="textbox">
             <div class="text">
-                <hr style="height: auto; border-bottom: 2px solid gray; width: 150px;">
-                <h1>수어해설</h1>
-                <iframe width="850" height="430"
-                    src="https://www.youtube.com/embed/vuhI0th71yc"
+                <hr style="height: auto; border-bottom: 2px solid rgb(255, 255, 255); width: 150px;">
+                <h1 style="font-weight: bold;">수어해설</h1>
+                <iframe width="850" height="430" src="https://www.youtube.com/embed/vuhI0th71yc"
                     title="최욱경 《레다와 백조》｜소장품 수어해설｜현대미술｜리움" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
@@ -244,14 +265,14 @@
     </aside>
     <article>
         <div class="searchbox">
-            <h2>소장품 검색</h2>
+            <h2 style="font-weight: bold;">소장품 검색</h2>
             <div id="box">
                 <input type="checkbox" value="start" id="start">
-                <label for="start" class="start">고미술</label>
+                <label for="start" class="start" style="color: white;">고미술</label>
                 <input type="checkbox" value="start" id="start">
-                <label for="start" class="start">현대미술</label>
+                <label for="start" class="start" style="color: white;">현대미술</label>
                 <input type="checkbox" value="start" id="start">
-                <label for="start" class="start">전시중</label>
+                <label for="start" class="start" style="color: white;">전시중</label>
             </div>
 
 
@@ -281,7 +302,7 @@
         </div>
         <div class="content7">
             <div class="text">
-                <h1>운영 시간</h1><br>
+                <h1 style="font-weight: bold;">운영 시간</h1><br>
                 <h4>매주 화요일 ~ 일요일<br>오전 10:00 ~ 오후 18:00 <br>
                     매표소 마감 : 오후 17: 30<br>
                     매주 월요일, 매년 1/1 음력 설날 및 추석 당일 휴관</h4>
@@ -291,11 +312,11 @@
 
         <div class="content8">
             <div class="text">
-                <h1>문의</h1><br>
+                <h1 style="font-weight: bold;">문의</h1><br>
                 <h4>멤버십 관련 이메일 문의 :<br>
                     leeum.membership@samsung.com</h4><br>
                 <button>
-                    <h4> 고객문의 바로보기</h4>
+                    <h4 style="font-weight: bold;"> 고객문의 바로보기</h4>
                 </button>
             </div>
 
@@ -304,7 +325,7 @@
         <div class="content9">
             <div id="contaier">
                 <ul class="menu">
-                    <li class="menu1">연계 사이트
+                    <li class="menu1" style="font-weight: bold;">연계 사이트
                         <img src="icon/bottom.png" alt="">
                         <ul class="submenu">
                             <li>호암미술관</li>
@@ -317,7 +338,7 @@
                 </ul>
             </div>
             <div class="text">
-                
+
                 <h4>개인정보처리방침<br>
                     법인회원</h4>
                 <img src="icon/facebook2.png" alt="">
@@ -328,7 +349,7 @@
                 <p>Ⓒ Leeum Museum of Art, All Rights Reserved.</p>
             </div>
         </div>
-           
+
 
         </div>
 

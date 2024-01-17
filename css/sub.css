@@ -1,0 +1,989 @@
+/*slider*/
+#slider {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/subslider.png);
+    background-size: cover;
+
+}
+
+#slider .mainlogo img {
+    /* position: absolute; */
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0 auto;
+    width: 340px;
+    height: 380px;
+    animation: rotate_image 8s linear infinite;
+    transform-origin: 50% 50%;
+
+}
+
+@keyframes rotate_image{
+	100% {
+    	transform: rotate(360deg);
+    }
+}
+
+#slider nav {
+    width: 250px;
+    height: 380px;
+    font-size: 22px;
+    line-height: 100px;
+    color: white;
+    padding: 90px 40px 10px;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+    cursor: pointer;
+}
+
+#slider nav .a {margin-right: -20px;}
+#slider nav .b {margin-right: -20px;}
+#slider nav .c {margin-right: 30px;}
+#slider nav .d {margin-right: 30px;}
+#slider nav .box button {border: 5px solid rgb(255, 255, 255); width: 200px; height: 60px; background: none; font-size: 22px; color: white;}
+#slider nav .box button:hover {background: white; color: black; border: 3px solid black; opacity: 0.9; cursor: pointer;}
+#slider nav .box h1{font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);}
+
+/*section*/
+
+section {
+    width: 1225px;
+    height: 3855px;
+    margin: 0 auto;
+    /* display: flex; */
+}
+
+
+section .sub {
+    width: 295px;
+    height: 100%;
+    /* border-right: 2px solid white; */
+    float: left;
+    position: relative;
+}
+
+section .sub .sub1 {
+    width: 260px;
+    height: 571px;
+    margin-left: 17px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+section .sub1 h2 {font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+    font-size: 28px;
+    }
+
+section .sub1 .text {
+    bottom: 50px;
+    font-size: 15px;
+    text-align: right;
+    line-height: 25px;
+    color: white;
+    margin-right: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+section .sub .btton {
+    text-align: right;
+    
+    
+}
+
+section .sub .btton button {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 35px;
+    border-radius: 20px 20px;
+    transition: 0.5s;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+section .sub .btton button:hover {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+section .sub .sub1 .subbox {
+    width: 260px;
+    height: 500px;
+    margin-top: 20px;
+    border-top: 1px solid white;
+}
+
+
+section .sub .sub1 .subbox img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+section .sub .sub1 h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    color: white;
+}
+
+/* section .sub .sub1 p {color: white; font-size: px;} */
+
+section .sub .sub2 {
+    width: 260px;
+    height: 530px;
+    margin-left: 17px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+section .sub .sub2 .text {
+    bottom: 50px;
+    font-size: 15px;
+    text-align: right;
+    line-height: 25px;
+    color: white;
+    margin-right: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+    
+}
+
+
+section .sub .sub2 .subbox {
+    width: 260px;
+
+    height: 500px;
+}
+
+section .sub .sub2 .subbox img {
+
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+section .sub .sub3 {
+    width: 260px;
+    height: 571px;
+    margin-left: 17px;
+    margin-top: 20px;
+}
+
+section .sub3 .text {
+    bottom: 35px;
+    font-size: 15px;
+    text-align: right;
+    line-height: 25px;
+    color: white;
+    margin-right: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+
+
+section .sub .sub3 .subbox {
+    width: 260px;
+    height: 480px;
+}
+
+section .sub .sub3 .subbox img {
+
+    width: 90%;
+    margin-left: 10px;
+}
+
+/* main*/
+
+section .page1 hr {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+section .page1 h1 {
+    position: relative;
+    left: 190px;
+    top: 10px;
+    font-size: 28px;
+}
+
+
+
+section .page1 {
+    width: 928px;
+    height: 500px;
+    float: right;
+    border-left: 2px solid white;
+    position: relative;
+}
+
+/* justify-content: flex-end;
+display: flex;} */
+
+section .page1 .image .imgbox1 img:nth-of-type(1){width: 40px; height: 35px; position: relative; float: right; margin-right: 130px; margin-top: 215px;}
+section .page1 .image .imgbox1 img:nth-of-type(2){width: 40px; height: 35px; position: relative; float: right; margin-top: 215px; left: 145px;}
+
+
+section .page1 .image img {
+    position: absolute;
+    width: 870px;
+    top: 70px;
+    left: 30px;
+
+}
+
+section .page1 .text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+
+}
+section .page1 h1 {font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+margin-top: 5px;
+margin-left: 10px;}
+
+
+section .page1 .text p {
+    font-size: 14px;
+}
+
+section .page1 .text h2 {
+    font-size: 26px;
+    line-height: 50px;
+}
+
+section .page1 .text h4 {
+    font-size: 20px;
+}
+
+section .page2 {
+    width: 928px;
+    height: 700px;
+    float: right;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    position: relative;
+}
+
+section .page2 .textbox {
+    position: absolute;
+    left: 340px;
+    top: 5px;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+section .page2 .textbox p {
+    font-size: 14.5px;
+    line-height: 18px;
+}
+
+section .page2 .textbox2 {
+    position: absolute;
+    color: white;
+    text-align: right;
+    right: 11px;
+    margin-top: 450px;
+}
+
+section .page2 .textbox2 p {
+    font-size: 14px;
+}
+
+section .page2 .image1 .btn {
+
+    border: none;
+
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+
+    transition: 0.3s;
+
+    cursor: pointer;
+
+    display: inline-block;
+    position: absolute;
+    bottom: -15px;
+    left: 60px;
+
+    padding: 30px 0px;
+
+}
+section .page2 .image1 .btn span { font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);}
+
+.btn:hover {
+    opacity: 0.3;
+}
+
+.btn>span {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn>img.c {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+section .page2 .image1 .btn img {
+    width: 35px;
+    height: 35px;
+    left: -45px;
+    top: 25px;
+}
+
+section .page2 .image1 {
+    width: 579px;
+    height: 330px;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+}
+
+section .page2 .image1 img {
+    width: 320px;
+    height: 250px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+section .page2 .image2 {
+    width: 349px;
+    height: 700px;
+    float: right;
+    position: relative;
+}
+
+section .page2 hr {
+    position: absolute;
+    right: 13px;
+    top: 23px;
+}
+
+section .page2 h1 {
+    color: white;
+    font-size: 28px;
+    margin-left: 58px;
+    margin-top: 7px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+}
+
+section .page2 .textbox2 { font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);}
+
+section .page2 h2 {margin-top: 10px;}
+
+
+
+
+section .page2 .image2 img {
+    position: absolute;
+    width: 330px;
+    top: 45px;
+    left: 7px;
+}
+
+section .page2 .textbox3 {
+    position: absolute;
+    right: 400px;
+    top: 7px;
+    color: white;
+    text-align: right;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+
+}
+
+section .page2 .textbox3 p {
+    font-size: 14.5px;
+    line-height: 18px;
+}
+
+section .page2 .image3 {
+    width: 579px;
+    height: 370px;
+    float: left;
+    position: relative;
+}
+
+section .page2 .image3 .btn {
+
+    border: none;
+
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+
+    transition: 0.3s;
+
+    cursor: pointer;
+
+    display: inline-block;
+    position: absolute;
+    bottom: -5px;
+    right: 55px;
+
+    padding: 30px 0px;
+
+}
+
+section .page2 .image3 .btn span { font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);}
+
+.btn:hover {
+    opacity: 0.3;
+}
+
+.btn>span {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn>img.c {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+section .page2 .image3 .btn img {
+    width: 35px;
+    height: 35px;
+    right: -55px;
+    top: 25px;
+}
+
+
+section .page2 .textbox2 {
+    position: absolute;
+    top: 7px;
+    color: white;
+    text-align: right;
+}
+
+section .page2 .textbox2 p {
+    font-size: 14px;
+}
+
+section .page2 .image3 img {
+    position: absolute;
+    width: 390px;
+    right: 5px;
+    top: 10px;
+}
+
+section .page3index {
+    width: 928px;
+    height: 100px;
+    float: right;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+}
+
+section .page3index .textbox {
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    width: 400px;
+    font-size: 25px;
+    padding: 2px 2px;
+    margin: 25px 0 0 265px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+
+}
+
+section .page3 {
+    width: 455.7px;
+    height: 790px;
+    float: right;
+    position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+
+section .page3 img {
+    position: absolute;
+    width: 430px;
+    height: 200px;
+    left: 15px;
+    top: 10px;
+}
+
+section .page3 .imgbox img {
+    position: absolute;
+    width: 430px;
+    margin-top: 220px;
+    height: 300px;
+}
+section .page3 img:hover {opacity: 0.8;}
+
+section .page3 .imgbox img:hover {opacity: 0.8;}
+section .page3 .imgbox p {position: absolute; bottom: 240px; font-size: 12px; right: 0;}
+section .page3 .imgbox h2 {position: absolute; bottom: 170px; right: 15px;}
+section .page3 .imgbox h5 {position: absolute; bottom: 25px; right: 15px; font-weight: lighter; color: white; text-align: right; font-size: 14px; line-height: 18px;
+    width: 430px;}
+section .page3 p {text-align: right;
+    margin-right: 15px; margin-top: 212px;}
+
+
+
+section .page3sub {
+    width: 470.4px;
+    height: 790px;
+    float: left;
+    border-right: 1px solid white;
+    border-left: 2px solid white;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+section .page3sub img:hover {opacity: 0.8;}
+
+section .page3sub p {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+section .page3sub h5 {
+    font-weight: lighter;
+    margin-top: -5px;
+    line-height: 18px;
+    padding-left: 15px;
+    width: 440px;
+}
+
+section .page3sub h2 {padding-left: 15px; margin-top: 10px;}
+
+section .page3sub img {
+    width: 440px;
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 550px;
+}
+
+section .page3bottom {
+    width: 928px;
+    height: 65px;
+    float: right;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+}
+
+section .page3bottom:hover {
+    opacity: 0.7;
+}
+
+section .page3bottom .textbox {
+    color: white;
+    border-top: 2px solid white;
+    text-align: center;
+    width: 800px;
+    font-size: 20px;
+    padding: 13px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+}
+
+
+section .page4 {
+    width: 928px;
+    height: 655px;
+    float: right;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+}
+
+section .page5index {
+    width: 928px;
+    height: 75px;
+    float: right;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+section .page5index h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    line-height: 75px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+}
+
+section .page5main {
+    width: 928px;
+    height: 430px;
+    float: right;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+
+section .page5main .imagebox {
+    width: 910px;
+    height: 410px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+section .page5sub1 {
+    width: 308px;
+    height: 560px;
+    float: right;
+
+    border-right: 2px solid white;
+}
+
+section .page5sub1 .textbox {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+
+}
+
+section .page5sub1 .textbox button {
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+    width: 285px;
+    height: 50px;
+    margin: 20.5px 0 0 15px;
+    display: block;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+section .page5sub1 .textbox button:hover {
+    cursor: pointer;
+    background-color: rgb(198, 198, 198);
+    color: white;
+}
+
+section .page5sub1 img {
+    width: 285px;
+    height: 375px;
+}
+
+section .page5sub1 .imgbox {width: 285px; height: 375px; overflow: hidden; margin-top: 10px; margin-left: 12px;}
+
+section .page5sub1 .imgbox img:hover {cursor: zoom-in;
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out;}
+
+section .page5sub2 {
+    width: 308px;
+    height: 560px;
+    float: right;
+    border-right: 2px solid white;
+    position: relative;
+}
+
+section .page5sub2 .textbox {
+    text-align: right;
+    margin-right: 15px;
+    
+}
+section .page5sub2 .textbox p { font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+margin-top: 10px;}
+
+section .page5sub2 .textbox button {
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+    position: absolute;
+    bottom: 15px;
+    width: 285px;
+    height: 50px;
+    margin: 10px 0 0 15px;
+    display: block;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+section .page5sub2 .textbox button:hover {
+    cursor: pointer;
+    background-color: rgb(140, 140, 140);
+    color: white;
+}
+
+section .page5sub2 img {
+    width: 285px;
+    height: 375px;
+}
+section .page5sub2 .imgbox {width: 285px; height: 375px; overflow: hidden; margin-top: 10px; margin-left: 12px;}
+
+section .page5sub2 .imgbox img:hover {cursor: zoom-in;
+    transform: scale(1.5);
+    transition: all 0.3s ease-in-out;}
+
+
+
+section .page5sub3 {
+    width: 308px;
+    height: 560px;
+    float: right;
+    border-right: 2px solid white;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+section .page5sub3 .imgbox {width: 295px; height: 375px; overflow: hidden; margin-top: 10px;}
+
+section .page5sub3 .imgbox img:hover {cursor: zoom-in;
+    transform: scale(1.5);
+    transition: all 0.3s ease-in-out;}
+
+
+section .page5sub3 .imgbox img {
+    width: 295px;
+    height: 375px;
+    margin-right: 5px;
+    /* overflow: hidden; */
+}
+
+
+section .page5sub3 .textbox {
+    text-align: right;
+    margin-right: 15px;
+    
+}
+
+section .page5sub3 .textbox p { font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg); margin-top: 10px;}
+
+section .page5sub3 .textbox button {
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 22px;
+    background-color: black;
+    position: absolute;
+    bottom: 15px;
+    width: 285px;
+    height: 50px;
+    margin: 10px 0 0 15px;
+    display: block;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+section .page5sub3 .textbox button:hover {
+    cursor: pointer;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+
+section #leftstoke {
+    width: 323px;
+    height: 4025px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+
+aside {
+    width: 100%;
+    height: 430px;
+    background: rgb(85, 85, 85);
+    position: relative;
+    bottom: 1630px;
+}
+
+aside .textbox {
+    width: 1225px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+aside .textbox .text {
+    width: 928px;
+    height: 570px;
+    position: relative;
+    float: right;
+    bottom: 30px;
+}
+
+aside .textbox .text hr {
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+aside .textbox .text h1 {
+    font-size: 28px;
+    color: white;
+    left: 180px;
+    position: relative;
+    top: 10px;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+}
+
+aside .textbox .text iframe {
+    margin-left: 40px;
+    width: 850px;
+    height: 430px;
+    margin-top: 20px;
+}
+
+aside .textbox .text h2 {
+    text-align: right;
+    margin-right: 40px;
+    color: white;
+    font-size: 23px;
+    margin-top: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+}
+
+aside .textbox .text p {
+    text-align: right;
+    color: white;
+    margin-right: 40px;
+    padding: 3px 15px;
+    border-right: 3px solid gray;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+    font-size: 17px;
+}
+
+article {
+    width: 100%;
+    margin-top: -400px;
+    position: relative;
+    height: 300px;
+    /* background-color: blueviolet; */
+    background-image: url(../img/collectionmain.png);
+    background-size: cover;
+}
+article .searchbox h2 {
+    font-size: 40px;
+    padding: 20px 120px;
+    white-space: nowrap;
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+    transform: skew(-0.1deg);
+
+}
+
+article #box {
+    position: absolute;
+    right: 150px;
+    top: 120px;
+    font-size: 17px;
+    font-family: 'Nanum Gothic', sans-serif;
+    transform: skew(-0.1deg);
+    font-weight: bold;
+}
+
+article .searchbox .start {
+    padding: 10px;
+}
+
+
+article .searchbox {
+    width: 1225px;
+    height: 300px;
+    /* background: aqua; */
+    margin: 0 auto;
+    position: relative;
+}
+
+article .searchbox .search-container {
+    width: 1000px;
+    height: 40px;
+    top: 140px;
+    position: absolute;
+}
+
+
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 20px;
+    border-radius: 50px 50px;
+    width: 950px;
+    height: 60px;
+    margin-left: 125px;
+    position: absolute;
+
+}
+
+article .searchbox .search-container button {
+    padding: 4px;
+    float: right;
+    right: -115px;
+    border-radius: 0 50px 50px 0;
+    top: 10.5px;
+    background: #9b9b9b;
+    font-size: 55px;
+    width: 155px;
+    height: 72.5px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+
+article .searchbox .search-container button:hover {
+    background: #b3b3b3;
+}
+
+input[type=text] {
+    border: 3px solid #9f9f9f;
+    white-space: nowrap;
+    padding-left: 30px;
+}
+
+input[type=text]:hover {
+    background: rgb(245, 245, 245);
+}
