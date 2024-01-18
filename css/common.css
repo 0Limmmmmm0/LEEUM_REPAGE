@@ -68,7 +68,7 @@ header p {
     font-family: 'Nanum Myeongjo', serif;
     transform: skew(-0.1deg);
 }
-#button nav ul a {color: rgb(255, 255, 255); margin-left: 5px; margin-right: 5px;}
+#button nav ul a {color: rgb(255, 255, 255); margin-left: 5px; margin-right: 5px; display: block;}
 #button nav ul a img {float: right; margin-top: 12px; margin-right: 10px; margin-top: 10px;}
 #button nav ul li:hover {background: rgb(207, 207, 207); display: block; }
 #button nav ul li:hover a{color: rgb(0, 0, 0); font-weight: bold;}
